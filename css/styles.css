@@ -1,22 +1,22 @@
 :root {
-    --primary-purple: #8A4FFF;
-    --secondary-purple: #5D3FD3;
-    --accent-purple: #6A5ACD;
+    --primary-purple: #4FC3F7;
+    --secondary-purple: #29B6F6;
+    --accent-purple: #4DD0E1;
     --light-purple: #E6E6FA;
-    --dark-purple: #4B0082;
+    --dark-purple: #0288D1;
     --white: #ffffff;
     --dark-bg: #0F0F1A;
     --text-light: #E0E0E0;
     --text-muted: #A0A0A0;
     --success-green: #2ECC71;
     --warning-yellow: #F1C40F;
-    --gradient-primary: linear-gradient(135deg, #8A4FFF, #5D3FD3);
-    --gradient-secondary: linear-gradient(45deg, #4B0082, #6A5ACD);
+    --gradient-primary: linear-gradient(135deg, #4FC3F7, #29B6F6);
+    --gradient-secondary: linear-gradient(45deg, #0288D1, #4DD0E1);
     --gradient-background: linear-gradient(225deg, #1A1A2E, #16213E);
-    --gradient-hover: linear-gradient(135deg, #6A5ACD, #8A4FFF);
+    --gradient-hover: linear-gradient(135deg, #4DD0E1, #4FC3F7);
     --transition-default: all 0.3s ease;
-    --shadow-light: 0 5px 15px rgba(138, 79, 255, 0.2);
-    --shadow-dark: 0 15px 30px rgba(138, 79, 255, 0.3);
+    --shadow-light: 0 5px 15px rgba(79, 195, 247, 0.2);
+    --shadow-dark: 0 15px 30px rgba(79, 195, 247, 0.3);
 }
 
 @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-20px); } }
